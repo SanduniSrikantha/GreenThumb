@@ -1,6 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:greenthumb/HomeScreen.dart';
+import 'package:greenthumb/BottomNavigationScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -94,7 +96,7 @@ class _LoginPageState extends State<LoginPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: 80.0),
+          SizedBox(height: 200.0),
           Image.asset('assets/images/Collection-pana.png', height: 150.0),
           SizedBox(height: 20.0),
           Text(
@@ -162,7 +164,7 @@ class _LoginPageState extends State<LoginPage> {
                 print(user);
                 if (user != null) {
                   Navigator.of(context).pushReplacement(
-                      MaterialPageRoute(builder: (context) => HomePage()));
+                      MaterialPageRoute(builder: (context) => BottomNavigationScreen()));
                   // new screen
                 }
               },
@@ -177,4 +179,13 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
   }
+  
 }
+
+
+
+
+
+
+
+ 
