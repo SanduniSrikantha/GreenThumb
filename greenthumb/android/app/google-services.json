@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "255018669406",
+    "project_id": "greenthumb-dcdc7",
+    "storage_bucket": "greenthumb-dcdc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255018669406:android:d9362a6397354abf61ebcf",
+        "android_client_info": {
+          "package_name": "com.example.greenthumb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255018669406-6rilrrg5j081neqh60ccc6pqjtbiv8nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjgC67otczLu7GM2pXh3M4wEN81LLREeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255018669406-6rilrrg5j081neqh60ccc6pqjtbiv8nl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
